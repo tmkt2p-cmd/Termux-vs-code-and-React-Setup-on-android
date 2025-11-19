@@ -13,7 +13,8 @@ nano build-mrb.sh
 
 2 :- command 
 
-```bash#!/data/data/com.termux/files/usr/bin/bash
+```bash
+#!/data/data/com.termux/files/usr/bin/bash
 clear
 
 RED="\033[1;31m"
@@ -107,7 +108,8 @@ EOF
 chmod +x mrb-ultimate.sh
 
 echo -e "${RED}${BOLD}✔ DONE!"
-echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"```
+echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"
+```
 
 
 
@@ -115,11 +117,14 @@ echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"```
 
 3 :- command 
 
-<code>chmod +x build-mrb.sh</code>
+```bash
+chmod +x build-mrb.sh
+```
 
 
 
 
 4 :- command 
-
-<code>./build-mrb.sh</code>
+```bash
+./build-mrb.sh
+```
