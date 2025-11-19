@@ -96,7 +96,11 @@ npm install -g create-react-app
 
 echo -e "${CYAN}📁 Creating React Project: myapp...${RESET}"
 progress
-create-react-app myapp
+if [ ! -d "$HOME/myapp" ]; then
+    create-react-app myapp
+else
+    echo -e "${GREEN}✔ myapp already exists — skipping creation${RESET}"
+fi
 
 echo -e "${CYAN}💻 Launching Code-Server...${RESET}"
 progress
