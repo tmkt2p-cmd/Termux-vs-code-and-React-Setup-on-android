@@ -1,11 +1,12 @@
 # Termux-vs-code-and-React-Setup-on-android
-You can install vs code and React in Termux in Just Few Commands And Enjoy Creating Beautiful and Advance Website on<strong><b>Vs code+React</b></strong>
+You can install vs code and React in Termux in Just Few Commands And Enjoy Creating Beautiful and Advance Website on<strong><b>Vs code + React</b></strong>
 <img src="1c.png" height="100%" width="100%">
 
 1 :- <p stle="color: red;">command </p>
 
-
+'''bash
 <code>nano build-mrb.sh</code>
+'''
 
 2 :- command 
 
