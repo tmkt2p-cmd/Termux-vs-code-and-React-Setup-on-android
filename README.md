@@ -145,3 +145,52 @@ chmod +x build-mrb.sh
 ```bash
 ./mrb-ultimate.sh
 ```
+
+
+#For VS CODE AND REACT AUTO START#
+1 :- Command
+
+```bash
+nano ~/mrb-autostart.sh
+```
+
+2 :- Command *PAST THIS*
+
+```bash
+#!/data/data/com.termux/files/usr/bin/bash
+clear
+
+echo "🔥 Starting Code-Server + React (MRB Autostart)"
+
+# Purane process kill (safe)
+pkill -9 node 2>/dev/null
+pkill -9 npm 2>/dev/null
+pkill -9 code-server 2>/dev/null
+
+# Code-Server start
+code-server --auth none --bind-addr 127.0.0.1:8080 &
+
+# React start
+cd ~/myapp
+npm start &
+```
+
+3 :- Command *MACK EXECUTABLE*
+
+```bash
+chmod +x ~/mrb-autostart.sh
+```
+
+4 :- Command 
+
+```bash
+echo "~/mrb-autostart.sh" >> ~/.bashrc
+```
+
+5 :- command *FINAL*
+```bash
+source ~/.bashrc
+```
+
+
+#NOW ENJOY CODING YOU WANT TO JUST OPEN TERMUX APP AND ALL THE THONG EXECUTE AUTOMATIC JUST OPEN M.R.B APP AND ENJOY VS CODE + REACT ON ANDROID #
