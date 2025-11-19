@@ -4,9 +4,12 @@ You can install vs code and React in Termux in Just Few Commands And Enjoy Creat
 
 1 :- <p stle="color: red;">command </p>
 
-'''bash
+
+```bash
 <code>nano build-mrb.sh</code>
-'''
+```
+
+
 
 2 :- command 
 
