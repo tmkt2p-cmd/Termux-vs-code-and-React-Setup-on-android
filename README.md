@@ -137,7 +137,7 @@ chmod +x build-mrb.sh
 ./build-mrb.sh
 ```
 
-4 :- command For Run Installer
+5 :- command For Run Installer
 ```bash
 ./mrb-ultimate.sh
 ```
