@@ -6,15 +6,14 @@ You can install vs code and React in Termux in Just Few Commands And Enjoy Creat
 
 
 ```bash
-<code>nano build-mrb.sh</code>
+nano build-mrb.sh
 ```
 
 
 
 2 :- command 
 
-
-<code>#!/data/data/com.termux/files/usr/bin/bash
+```bash#!/data/data/com.termux/files/usr/bin/bash
 clear
 
 RED="\033[1;31m"
@@ -108,7 +107,7 @@ EOF
 chmod +x mrb-ultimate.sh
 
 echo -e "${RED}${BOLD}✔ DONE!"
-echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"</code>
+echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"```
 
 
 
