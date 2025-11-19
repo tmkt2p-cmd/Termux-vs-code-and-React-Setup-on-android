@@ -10,6 +10,9 @@
 
 <img src="1c.png" height="100%" width="100%">
 
+
+<img src="vscode.png" height="100%" width="100%">
+
 1 :- command For Create Script File
 
 
