@@ -19,7 +19,7 @@ nano build-mrb.sh
 
 
 
-2 :- command Add This Code In Script File Then CTRL+O To Save And Enter Then CTRL+X For Exit After Save
+2 :- command Add This Code In Script File Then --- CTRL+O ---To Save And --- Enter ---Then --- CTRL+X ---For Exit After Save
 
 ```bash
 #!/data/data/com.termux/files/usr/bin/bash
