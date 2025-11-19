@@ -1,9 +1,6 @@
 # Termux-vs-code-and-React-Setup-on-android
-<span style="color: orange;">Ye text orange hai</span>
 <code>
-<span style="color: rgb(255, 128, 0);">Orange RGB text</span>
-<span style="color: orange;"></code>
-You can install vs code and React in Termux in Just Few Commands And Enjoy Creating Beautiful and Advance Website on Vs code + React</span>
+You can install vs code and React in Termux in Just Few Commands And Enjoy Creating Beautiful and Advance Website on Vs code + React</code>
 <img src="1c.png" height="100%" width="100%">
 
 1 :- <p stle="color: red;">command </p>
