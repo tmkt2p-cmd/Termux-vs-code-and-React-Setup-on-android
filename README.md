@@ -151,45 +151,43 @@ chmod +x build-mrb.sh
 1 :- Command
 
 ```bash
-nano ~/mrb-autostart.sh
+mkdir -p ~/autostart
+nano ~/autostart/start.sh
 ```
 
 2 :- Command *PAST THIS*
 
 ```bash
-#!/data/data/com.termux/files/usr/bin/bash
-clear
+#!/data/data/com.termux/files/usr/bin/sh
 
-echo "🔥 Starting Code-Server + React (MRB Autostart)"
+# Avoid multiple runs per session
+if [ -z "$AUTOSTART_DONE" ]; then
+    export AUTOSTART_DONE=1
+    sleep 2
 
-# Purane process kill (safe)
-pkill -9 node 2>/dev/null
-pkill -9 npm 2>/dev/null
-pkill -9 code-server 2>/dev/null
+    # Start code-server with no password
+    code-server --auth none --port 8080 &
 
-# Code-Server start
-code-server --auth none --bind-addr 127.0.0.1:8080 &
+    # Wait for server to initialize
+    sleep 5
 
-# React start
-cd ~/myapp
-npm start &
+    # Go to project folder
+    cd $HOME/myapp
+
+    # Start npm
+    npm start
+fi
 ```
 
 3 :- Command *MACK EXECUTABLE*
 
 ```bash
-chmod +x ~/mrb-autostart.sh
+chmod +x ~/autostart/start.sh
 ```
 
-4 :- Command 
-
+4 :- command *FINAL*
 ```bash
-echo "~/mrb-autostart.sh" >> ~/.bashrc
-```
-
-5 :- command *FINAL*
-```bash
-source ~/.bashrc
+~/autostart/start.sh
 ```
 
 
