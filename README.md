@@ -10,7 +10,7 @@
 
 <img src="1c.png" height="100%" width="100%">
 
-1 :- command
+1 :- command For Create Script File
 
 
 ```bash
@@ -19,7 +19,7 @@ nano build-mrb.sh
 
 
 
-2 :- command 
+2 :- command Add This Code In Script File
 
 ```bash
 #!/data/data/com.termux/files/usr/bin/bash
@@ -123,7 +123,7 @@ echo -e "Run installer with: ./mrb-ultimate.sh${RESET}"
 
 
 
-3 :- command 
+3 :- command For Mack Executive 
 
 ```bash
 chmod +x build-mrb.sh
@@ -132,7 +132,12 @@ chmod +x build-mrb.sh
 
 
 
-4 :- command 
+4 :- command For Start Building
 ```bash
 ./build-mrb.sh
+```
+
+4 :- command For Run Installer
+```bash
+./mrb-ultimate.sh
 ```
