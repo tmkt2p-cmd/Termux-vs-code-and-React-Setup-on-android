@@ -4,9 +4,13 @@
 
 
 
+
+
+
+
 <img src="1c.png" height="100%" width="100%">
 
-1 :- <p stle="color: red;">command </p>
+1 :- command
 
 
 ```bash
