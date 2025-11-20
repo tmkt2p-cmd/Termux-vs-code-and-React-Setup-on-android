@@ -413,7 +413,10 @@ echo -e "$W    2. Agli baar Termux khulte hi MRB Control Hub $GAutomatically Loa
 echo -e "$W    3. $YINSTALLATION$W shuru karne ke liye $G'[ 1 ] INSTALL SYSTEM'$W chunein.$RESET"
 echo -e "$R========================================================================================$RESET"
 echo -e "$Y    Ab Termux se bahar nikalne ke liye '$Gexit$Y' type karein aur RESTART karein. $RESET"
-echo -e "$R"```
+echo -e "$R"
+```
+
+
 
 1 :- command For Create Script File
 
